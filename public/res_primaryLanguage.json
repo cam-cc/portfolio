@@ -1,0 +1,172 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 Hi there! I'm a aspiring data scientist with a strong background in computer programming, as well as a thorough understanding of data science and machine learning. Throughout my education, I have gained experience in programming languages such as Python, javascript, c++, etc and have worked on projects involving statistical modeling, predictive analytics, and data visualization. I am highly motivated to continue expanding my knowledge and skills in these areas, and to apply them to real-world problems. My passion for data science is rooted in the belief that data has the power to drive innovation and create positive change. I am excited to leverage my skills and experience to help organizations make data-driven decisions and achieve their goals.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "notebooks": "Notebooks",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Virtual Drag and Drop",
+        "startDate": "2022",
+        "description": "I had a lot of fun working on this project and got to learn a lot of new features with computer vision. and learned basic tensorflow implementations",
+        "images": [
+          "images/portfolio/drag-drop/p1.png",
+          "images/portfolio/drag-drop/p2.png"
+        ],
+        "url": "https://github.com/cam-cc/DragDropCV",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Jetpack Compose Graphing library",
+        "startDate": "2022",
+        "description": "Personal project for others to use, I realized jetpack compose does not have a library for charts/graphs so I decided to use my framework knowledge to make one.",
+        "images": [
+          "images/portfolio/graphs/p1.png",
+          "images/portfolio/graphs/p2.png"
+        ],
+        "url": "https://github.com/cam-cc",
+        "technologies": [
+          {
+            "class": "devicon-java-original",
+            "name": "Kotlin"
+          }
+        ]
+      },
+      {
+        "title": "Logistics Invoice Application",
+        "startDate": "2022",
+        "description": "For this project I developed an invoicing system for a logistics company, which calculates the final pay for each driver and uses google maps api for distance trakcing.",
+        "images": [
+          "images/portfolio/logistics/p1.png",
+          "images/portfolio/logistics/p2.png"
+        ],
+        "url": "https://github.com/cam-cc/trucking-software",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "notebooks": [
+      {
+        "title": "Shinkansen travel experience",
+        "startDate": "2023",
+        "description": "This aim of this project was to predict whether a passenger was satisfied or not considering their overall experience of traveling on the Shinkansen Bullet Train. Currently I have managed to acheive an accuracy of 95%",
+        "images": [
+          "images/portfolio/hackathon/p1.png"
+        ],
+        "notebook": "/notebooks/travel-experience.html",
+        "url": "https://github.com/cam-cc/travel-experience",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Movie Recommendations",
+        "startDate": "2023",
+        "description": "I had a lot of fun working on this project and got to learn a lot of new features with computer vision. and learned basic tensorflow implementations",
+        "images": [
+          "images/portfolio/movie-recommendations/p1.jpg"
+        ],
+        "notebook": "/notebooks/movie-recommendation.html",
+        "url": "https://github.com/cam-cc/movie-recommendation",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Hotel Cancellation Analysis",
+        "startDate": "2023",
+        "description": "I had a lot of fun working on this project and got to learn a lot of new features with computer vision. and learned basic tensorflow implementations",
+        "images": [
+          "images/portfolio/hotel-cancel/p1.png"
+        ],
+        "notebook": "/notebooks/hotel-cancellation.html",
+        "url": "https://github.com/cam-cc/hotel-cancellation",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Seneca College",
+        "title": "Computer Programming Student",
+        "years": "09.2019 - 06.2021",
+        "mainTech": [
+          "Web Dev"
+        ],
+        "technologies": [
+          "REST API",
+          "ElectronJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          "Laravel",
+          "VueJS",
+          "Angular Material",
+          "Parallel Programming",
+          "NoSQL languages"
+        ]
+      },
+      {
+        "company": "Trisec Logistics",
+        "title": "Customs Analyst (Job)",
+        "years": "2019-2022",
+        "mainTech": [
+          "Analysis"
+        ],
+        "technologies": [
+          "Sql",
+          "Excel",
+          "Accounting"
+        ]
+      },
+      {
+        "company": "Massachussets Institute of Technology - IDSS",
+        "title": "Data Science & Machine Learning",
+        "years": "2022-2023",
+        "mainTech": [
+          "Python"
+        ],
+        "technologies": [
+          "Sql",
+          "Python",
+          "Jupyter Notebook",
+          "Model Training",
+          "Pandas",
+          "NumPy",
+          "SciPy",
+          "Statistical Analysis",
+          "data visualization"
+        ]
+      }
+    ]
+  }

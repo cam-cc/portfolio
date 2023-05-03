@@ -1,0 +1,50 @@
+.education {
+    margin-top: 4rem;
+  
+    h2 {
+        padding-top: 5%;
+        font: 18px/24px 'opensans-bold', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: black;
+        text-align: center;
+    }
+  
+    &__container {
+      display: flex;
+      justify-content: center;
+    }
+  
+    &__item {
+      width: 80%;
+      margin: 2rem;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      padding: 2rem;
+      background-color: #f9f9f9;
+      transition: box-shadow 0.3s ease;
+  
+      &:hover {
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+      }
+  
+      &__degree {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #212121;
+        margin-bottom: 0.5rem;
+      }
+  
+      &__university {
+        font-size: 1.8rem;
+        color: #757575;
+        margin-bottom: 0.5rem;
+      }
+  
+      &__date {
+        font-size: 1.2rem;
+        color: #757575;
+      }
+    }
+  }
+  
