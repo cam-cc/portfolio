@@ -1,0 +1,102 @@
+{
+    "basic_info": {
+      "description_header": "Bonjour à tous!",
+      "description": "👋 Je suis un aspirant data scientist avec une solide expérience en programmation informatique, ainsi qu'une compréhension approfondie de la science des données et de l'apprentissage automatique. Tout au long de ma formation, j'ai acquis de l'expérience dans des langages de programmation tels que Python, javascript, c++, etc. et j'ai travaillé sur des projets impliquant la modélisation statistique, l'analyse prédictive et la visualisation de données. Je suis très motivé pour continuer à développer mes connaissances et mes compétences dans ces domaines, et pour les appliquer à des problèmes concrets. Ma passion pour la science des données est ancrée dans la conviction que les données ont le pouvoir de stimuler l'innovation et de créer des changements positifs. Je suis enthousiaste à l'idée de mettre à profit mes compétences et mon expérience pour aider les organisations à prendre des décisions fondées sur des données et à atteindre leurs objectifs.",
+      "section_name": {
+        "about": "À propos de moi",
+        "projects": "Projets",
+        "skills": "compétences",
+        "experience": "De l'expérience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Virtual Drag and Drop",
+        "startDate": "2021",
+        "description": "J'ai eu beaucoup de plaisir à travailler sur ce projet et j'ai appris beaucoup de nouvelles fonctionnalités avec la vision par ordinateur. et appris les implémentations de base de tensorflow",
+        "images": [
+          "images/portfolio/drag-drop/p1.png",
+          "images/portfolio/drag-drop/p2.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "bibliothèque graphique de composition jetpack",
+        "startDate": "2022",
+        "description": "Projet personnel pour sujet d'étude. J'étais responsable de l'utilisation d'une API pour obtenir des informations sur n'importe quel film que vous souhaitez à partir de l'API IMDB.",
+        "images": [
+          "images/portfolio/graphs/p1.png",
+          "images/portfolio/graphs/p2.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Kotlin"
+          }
+        ]
+      },
+      {
+        "title": "Logistics Invoice Application",
+        "startDate": "2022",
+        "description": "Pour ce projet, j'ai développé un système de facturation pour une entreprise de logistique, qui calcule le salaire final de chaque chauffeur et utilise l'API Google Maps pour le suivi des distances.",
+        "images": [
+          "images/portfolio/logistics/p1.png",
+          "images/portfolio/logistics/p2.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Seneca College",
+        "title": "Computer Programming Student",
+        "years": "09.2018 - 09.2020",
+        "mainTech": [
+          "Web Dev"
+        ],
+        "technologies": [
+          "REST API",
+          "ElectronJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          ".NET Core",
+          "SignalR",
+          "Angular Material",
+          "Parallel Programming",
+          "NoSQL languages"
+        ]
+      },
+      {
+        "company": "Trisec Logistics",
+        "title": "Data Analyst",
+        "years": "2019-2022",
+        "mainTech": [
+          "SQL"
+        ],
+        "technologies": [
+          "Sql",
+          "Python",
+          "Excel"
+        ]
+      }
+    ]
+  }
