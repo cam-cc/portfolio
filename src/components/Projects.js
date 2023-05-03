@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
-import NotebookDetailsModal from "./NotebookDetailsModal";
+
 
 class Projects extends Component {
   constructor(props) {
