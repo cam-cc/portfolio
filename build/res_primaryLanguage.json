@@ -1,10 +1,11 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 Computer programming has been a passion of mine since I was first introduced to it. Through web development in particular I've found a creative outlet that has allowed me to explore my interests and push the boundaries of my imagination. I couldn't be more grateful for the exciting opportunities in this field.",
+      "description": "👋 Hi there! I'm a aspiring data scientist with a strong background in computer programming, as well as a thorough understanding of data science and machine learning. Throughout my education, I have gained experience in programming languages such as Python, javascript, c++, etc and have worked on projects involving statistical modeling, predictive analytics, and data visualization. I am highly motivated to continue expanding my knowledge and skills in these areas, and to apply them to real-world problems. My passion for data science is rooted in the belief that data has the power to drive innovation and create positive change. I am excited to leverage my skills and experience to help organizations make data-driven decisions and achieve their goals.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
+        "notebooks": "Notebooks",
         "skills": "Skills",
         "experience": "Experience"
       }
@@ -63,11 +64,61 @@
         ]
       }
     ],
+    "notebooks": [
+      {
+        "title": "Shinkansen travel experience",
+        "startDate": "2023",
+        "description": "This aim of this project was to predict whether a passenger was satisfied or not considering their overall experience of traveling on the Shinkansen Bullet Train. Currently I have managed to acheive an accuracy of 95%",
+        "images": [
+          "images/portfolio/hackathon/p1.png"
+        ],
+        "notebook": "/notebooks/travel-experience.html",
+        "url": "https://github.com/cam-cc/travel-experience",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Movie Recommendations",
+        "startDate": "2023",
+        "description": "I had a lot of fun working on this project and got to learn a lot of new features with computer vision. and learned basic tensorflow implementations",
+        "images": [
+          "images/portfolio/movie-recommendations/p1.jpg"
+        ],
+        "notebook": "/notebooks/movie-recommendation.html",
+        "url": "https://github.com/cam-cc/movie-recommendation",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Hotel Cancellation Analysis",
+        "startDate": "2023",
+        "description": "I had a lot of fun working on this project and got to learn a lot of new features with computer vision. and learned basic tensorflow implementations",
+        "images": [
+          "images/portfolio/hotel-cancel/p1.png"
+        ],
+        "notebook": "/notebooks/hotel-cancellation.html",
+        "url": "https://github.com/cam-cc/hotel-cancellation",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      }
+    ],
     "experience": [
       {
         "company": "Seneca College",
         "title": "Computer Programming Student",
-        "years": "09.2019 - 01.2022",
+        "years": "09.2019 - 06.2021",
         "mainTech": [
           "Web Dev"
         ],
@@ -87,15 +138,34 @@
       },
       {
         "company": "Trisec Logistics",
-        "title": "Data Analyst",
+        "title": "Customs Analyst (Job)",
         "years": "2019-2022",
         "mainTech": [
-          "SQL"
+          "Analysis"
+        ],
+        "technologies": [
+          "Sql",
+          "Excel",
+          "Accounting"
+        ]
+      },
+      {
+        "company": "Massachussets Institute of Technology - IDSS",
+        "title": "Data Science & Machine Learning",
+        "years": "2022-2023",
+        "mainTech": [
+          "Python"
         ],
         "technologies": [
           "Sql",
           "Python",
-          "Excel"
+          "Jupyter Notebook",
+          "Model Training",
+          "Pandas",
+          "NumPy",
+          "SciPy",
+          "Statistical Analysis",
+          "data visualization"
         ]
       }
     ]
