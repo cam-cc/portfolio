@@ -84,7 +84,7 @@
       {
         "title": "Movie Recommendations",
         "startDate": "2023",
-        "description": "I had a lot of fun working on this project and got to learn a lot of new features with computer vision. and learned basic tensorflow implementations",
+        "description": " The goal is to apply different techniques to build recommendation systems such as Rank-based & Collaborative Filtering-based recommendation systems to recommend Movies to users. the data set consists of 671 unique users and 9,066 movies ",
         "images": [
           "images/portfolio/movie-recommendations/p1.jpg"
         ],
@@ -100,7 +100,7 @@
       {
         "title": "Hotel Cancellation Analysis",
         "startDate": "2023",
-        "description": "I had a lot of fun working on this project and got to learn a lot of new features with computer vision. and learned basic tensorflow implementations",
+        "description": "this notebook analyzes a hotel booking dataset to find which factors have a high influence on booking cancellations, builds a predictive model that can predict which booking is going to be cancelled in advance, and helps in formulating profitable policies for cancellations and refunds.",
         "images": [
           "images/portfolio/hotel-cancel/p1.png"
         ],
