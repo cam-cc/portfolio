@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 Hi there! I'm a aspiring data scientist with a strong background in computer programming, as well as a thorough understanding of data science and machine learning. Throughout my education, I have gained experience in programming languages such as Python, javascript, c++, etc and have worked on projects involving statistical modeling, predictive analytics, and data visualization. I am highly motivated to continue expanding my knowledge and skills in these areas, and to apply them to real-world problems. My passion for data science is rooted in the belief that data has the power to drive innovation and create positive change. I am excited to leverage my skills and experience to help organizations make data-driven decisions and achieve their goals.",
+      "description": "👋 Hi there! I'm an aspiring data scientist with a strong background in computer programming, as well as a thorough understanding of data science and machine learning. Throughout my education, I have gained experience in programming languages such as Python, javascript, c++, etc and have worked on projects involving statistical modeling, predictive analytics, and data visualization. I am highly motivated to continue expanding my knowledge and skills in these areas, and to apply them to real-world problems. My passion for data science is rooted in the belief that data has the power to drive innovation and create positive change. I am excited to leverage my skills and experience to help organizations make data-driven decisions and achieve their goals.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -150,7 +150,7 @@
         ]
       },
       {
-        "company": "Massachussets Institute of Technology - IDSS",
+        "company": "Massachussetts Institute of Technology - IDSS",
         "title": "Data Science & Machine Learning",
         "years": "2022-2023",
         "mainTech": [
