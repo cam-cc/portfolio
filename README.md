@@ -5,11 +5,13 @@ This is a portfolio website built using React and hosted on Netlify. The website
 https://www.cameroncc.com
 
 ## Table of Contents
-    <li>  Dependencies </li>
-    <li>  Deployment </li>
-    <li>  Built With </li>
-    <li>  Authors </li>
-    <li>  License </li>
+
+1. [Dependencies](#Dependencies)
+2. [Deployment](#Deployment)
+3. Built With
+4. [Authors](#Authors)
+5. [License](#License)
+
 
 The main dependencies used in this project are:
 
@@ -18,7 +20,7 @@ The main dependencies used in this project are:
     styled-components
 
 For a full list of dependencies, see the package.json file.
-Deployment
+## Deployment
 
 This project is deployed on Netlify. To deploy your own version of this website on Netlify, follow these steps:
 
@@ -30,16 +32,17 @@ This project is deployed on Netlify. To deploy your own version of this website 
     Click on the "Deploy site" button.
 
 Netlify will automatically build and deploy your website.
-Built With
+
+## Built With
 
     React
     React Router DOM
     Styled Components
 
-Authors
+## Authors
 
     Cameron - Cameroncc.com
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
