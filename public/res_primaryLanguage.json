@@ -28,18 +28,18 @@
         ]
       },
       {
-        "title": "Jetpack Compose Graphing library",
-        "startDate": "2022",
-        "description": "Personal project for others to use, I realized jetpack compose does not have a library for charts/graphs so I decided to use my framework knowledge to make one.",
+        "title": "Deep learning (DCGAN)",
+        "startDate": "2023",
+        "description": "A deep learning GAN image processor that was given pictures different cats. The purpose of this repo was to explore Deep Convolutional Generative Adversarial Network (DCGAN)",
         "images": [
-          "images/portfolio/graphs/p1.png",
-          "images/portfolio/graphs/p2.png"
+          "images/portfolio/dcgan/p1.jpg",
+          "images/portfolio/dcgan/p1.jpg"
         ],
-        "url": "https://github.com/cam-cc",
+        "url": "https://github.com/cam-cc/Deeplearning-images",
         "technologies": [
           {
-            "class": "devicon-java-original",
-            "name": "Kotlin"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       },
