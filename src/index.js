@@ -1,16 +1,19 @@
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom/client';
+import App from './app';
+import ThemeContextProvider from './contexts/theme-context';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+const theme = createTheme();
 
-/* GLOBAL VARIABLES */
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <ThemeContextProvider>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  </ThemeContextProvider>
+);
 
-window.$primaryLanguage = 'en';
-window.$secondaryLanguage = 'pl';
-window.$primaryLanguageIconId = 'primary-lang-icon';
-window.$secondaryLanguageIconId = 'secondary-lang-icon';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.register();
+reportWebVitals();
