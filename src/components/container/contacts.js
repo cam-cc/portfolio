@@ -112,6 +112,7 @@ const Contacts = () => {
     e.preventDefault();
 
     if (name && email && message) {
+      console.log(form.current);
       if (isEmail(email)) {
         emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
           .then((result) => {

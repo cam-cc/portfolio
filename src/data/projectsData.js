@@ -4,6 +4,7 @@ import hackathon from '../assets/png/hackathon/p1.png'
 import dcgan from '../assets/png/dcgan/p1.jpg'
 import seven from '../assets/png/fracture/fracture.jpg'
 import six from '../assets/svg/projects/six.svg'
+import veysur from '../assets/png/veysur/p1.png'
 
 
 export const projectsData = [
@@ -27,6 +28,15 @@ export const projectsData = [
     },
     {
         id: 3,
+        projectName: 'Social Media Web App',
+        projectDesc: 'Developed a Twitter-inspired web application leveraging React, Next.js, and Tailwind CSS for the front-end, with Firebase providing the back-end infrastructure, enabling enhanced features and design improvements beyond the original platform.',
+        tags: ['TailwindCSS','Firebase','React','NextJS'],
+        code: 'https://veysur.online',
+        demo: 'https://veysur.online',
+        image: veysur
+    },
+    {
+        id: 4,
         projectName: 'Hotel Cancellation Analysis',
         projectDesc: 'this notebook analyzes a hotel booking dataset to find which factors have a high influence on booking cancellations, builds a predictive model that can predict which booking is going to be cancelled in advance, and helps in formulating profitable policies for cancellations and refunds..',
         tags: ['Python', 'Jupyter Notebook'],
@@ -35,7 +45,7 @@ export const projectsData = [
         image: hotel 
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Deep learning (DCGAN)',
         projectDesc: 'A deep learning GAN image processor that was given pictures different cats. The purpose of this repo was to explore Deep Convolutional Generative Adversarial Network (DCGAN)',
         tags: ['Python'],
@@ -44,7 +54,7 @@ export const projectsData = [
         image: dcgan
     },
     {
-        id: 5,
+        id: 6,
         projectName: 'Logistics Invoice Application',
         projectDesc: 'For this project I developed an invoicing system for a logistics company, which calculates the final pay for each driver and uses google maps api for distance trakcing.',
         tags: ['React', 'CSS', 'Material Ui'],
@@ -53,7 +63,7 @@ export const projectsData = [
         image: six
     },
     {
-        id: 6,
+        id: 7,
         projectName: 'Bone Fracture Classification',
         projectDesc: 'This project classifies if a bone is fractured from an xray image with 95% accuracy',
         tags: ['Python', 'Numpy', 'PyTorch'],
