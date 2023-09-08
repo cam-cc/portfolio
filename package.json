@@ -1,6 +1,6 @@
 {
   "name": "dev-portfolio",
-  "homepage": "https://www.cameroncc.com",
+  "homepage": ".",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
