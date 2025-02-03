@@ -6,7 +6,7 @@ import eduImgWhite from '../../../assets/svg/education/eduImgWhite.svg';
 import { ThemeContext } from '../../../contexts/theme-context';
 import './education.css';
 
-function EducationCard({ id, institution, course, startYear, endYear }) {
+function EducationCard({ id, institution, credential, course, startYear, endYear }) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -26,8 +26,9 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
                 </div>
                 <div className="education-details">
                     <h6 style={{ color: theme.primary }}>{startYear}-{endYear}</h6>
-                    <h4 style={{ color: theme.tertiary }}>{course}</h4>
-                    <h5 style={{ color: theme.tertiary }}>{institution}</h5>
+                    <h3 style={{ color: theme.tertiary }}>{credential}</h3>
+                    <h3 style={{ color: theme.tertiary }}>{course}</h3>
+                    <h2 style={{ color: theme.tertiary, fontWeight: 'bold' }}>{institution}</h2>
                 </div>
             </div>
         </Fade>
