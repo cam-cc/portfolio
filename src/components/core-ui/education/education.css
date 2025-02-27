@@ -34,7 +34,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 90%;
-  height: 140px;
+  min-height: 140px;
+  height: auto;
   padding: 1.5rem;
   border-radius: 20px;
   margin-bottom: 1.5rem;
@@ -57,6 +58,9 @@
 
 .education-details {
   margin-left: 0.6rem;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .education-details>h6 {
@@ -76,6 +80,13 @@
   font-family: var(--primaryFont);
   font-size: 1.15rem;
   font-weight: 600;
+}
+
+.education-details > h2 {
+  font-family: var(--primaryFont);
+  font-size: 1.1rem;
+  margin-top: 0.4rem;
+  word-break: break-word;
 }
 
 .education-image {
@@ -127,7 +138,7 @@
 
 @media screen and (max-width: 800px) {
   .education-description>h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
     align-self: center;
   }
@@ -139,13 +150,16 @@
   .education-card {
     padding: 1rem;
     margin-bottom: 1.5rem;
-    height: 130px;
+    min-height: 130px;
+    height: auto;
+    width: 100%;
   }
 
   .educard-img {
     border-radius: 50%;
     width: 45px;
     height: 45px;
+    flex-shrink: 0;
   }
 
   .educard-img>img {
@@ -153,23 +167,78 @@
   }
 
   .education-details>h6 {
-    font-size: 0.85rem;
-    margin-bottom: 0.45rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .education-details>h3 {
+    font-size: 0.95rem;
+    line-height: 120%;
+    margin-bottom: 0.3rem;
+  }
+
+  .education-details>h2 {
+    font-size: 1rem;
+    line-height: 120%;
+    margin-top: 0.3rem;
   }
 
   .education-details>h4 {
-    font-size: 1.125rem;
-    line-height: 126%;
+    font-size: 0.95rem;
+    line-height: 120%;
   }
 
   .education-details>h5 {
-    font-size: 1.05rem;
-    line-height: 126%;
+    font-size: 0.9rem;
+    line-height: 120%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .education-description>h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+  }
+  
+  .education-details>h3 {
+    font-size: 0.9rem;
+    line-height: 115%;
+  }
+  
+  .education-details>h2 {
+    font-size: 0.95rem;
+    line-height: 115%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .education-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0.8rem;
+  }
+  
+  .education-details {
+    margin-left: 0;
+    margin-top: 0.8rem;
+  }
+  
+  .education-details > h2,
+  .education-details > h3,
+  .education-details > h6 {
+    text-align: center;
+  }
+  
+  .education-details>h3 {
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .education-details>h2 {
+    font-size: 0.9rem;
+  }
+  
+  .education-details>h6 {
+    font-size: 0.75rem;
   }
 }
